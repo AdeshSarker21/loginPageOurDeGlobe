@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Eras Bold ITC';
+    src: url('../fonts/ErasITC-Bold.woff2') format('woff2'),
+        url('../fonts/ErasITC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eras Bold ITC';
+    src: url('../fonts/ErasITC-Bold.woff2') format('woff2'),
+        url('../fonts/ErasITC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eras Demi ITC';
+    src: url('../fonts/ErasITC-Demi.woff2') format('woff2'),
+        url('../fonts/ErasITC-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eras Demi ITC';
+    src: url('../fonts/ErasITC-Demi.woff2') format('woff2'),
+        url('../fonts/ErasITC-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

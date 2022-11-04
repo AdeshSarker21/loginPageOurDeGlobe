@@ -1,0 +1,325 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Eras Bold ITC';
+}
+
+/*====================================Start Main Body========================================*/
+.mainBodyArea {}
+
+/*------------------------------------------Start Login Page Css------------------------------------------*/
+.loginMainPageArea {}
+
+.mainLoginArea {
+    padding-left: 140px;
+}
+
+.startMainLoginForm {}
+
+.loginOptoinsDetails {
+    margin-bottom: 40px;
+    padding-top: 140px;
+}
+
+.loginOptoinsDetails .loginOptoinsDetailsHeading {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #002D5D;
+}
+
+.loginOptoinsDetails .loginOptoinsDetailsText {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #002D5D;
+}
+
+.loginFormGroup {
+    margin-bottom: 20px;
+}
+
+.loginFormGroup .formLabelText {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #002D5D;
+    margin-bottom: 10px;
+}
+
+.loginFormGroup .formInputText {
+    font-family: 'Eras Demi ITC';
+    border: none;
+    background: none;
+    background: #FFFFFF;
+    border: 1px solid #002D5D;
+    border-radius: 10px;
+    padding: 17px 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    color: #000000;
+}
+
+.loginFormGroup .formInputText::placeholder {
+    color: #302F2F;
+    opacity: 0.5;
+}
+
+.loginFormGroup .formInputText:-ms-input-placeholder {
+    color: #302F2F;
+}
+
+.loginFormGroup .formInputText::-ms-input-placeholder {
+    color: #302F2F;
+}
+
+.visiblePossition {
+    position: relative;
+}
+
+.loginFormGroup .visibleIcon {
+    position: absolute;
+    top: 63%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.checkboxArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formInputCheckbox {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.formLabelRememberMe {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A09E9E;
+}
+
+.loginFormGroup {}
+
+.loginFormGroup .formInputSubmit {
+    border: none;
+    background: none;
+    font-style: normal;
+    font-family: 'Eras Demi ITC';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding: 13px 15px 9px;
+    color: #002D5D;
+    background: #FABA01;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.forgotPasswordArea {
+    margin-top: 80px;
+}
+
+.forgotPasswordArea .forgotPassword {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    text-decoration: underline;
+    color: #002D5D;
+}
+
+/*------------------------------------------End Login Page Css------------------------------------------*/
+/*------------------------------------------Start Body Image Css------------------------------------------*/
+.mainBodyImageArea {
+    background: url(../images/bodyImage/body-image.png)no-repeat scroll 0 0 / 100% 100%;
+    text-align: center;
+    height: 100hv;
+}
+
+.mainBodyImageArea .bodyImages {
+    margin-top: 150px;
+}
+
+.fotgotPassword {
+    background: url(../images/bodyImage/bodyImage2.png)no-repeat scroll 0 0 / 100% 100%;
+    text-align: center;
+    height: 100hv;
+}
+
+/*------------------------------------------End Body Image Css------------------------------------------*/
+.responsiveLogo {
+    display: none;
+}
+
+.mainResetPasswordArea {
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.boxItem {
+    padding: 25px 25px 25px 36px;
+    border: 1px solid #A09E9E;
+    border-radius: 10px;
+}
+
+.boxItem {
+    position: relative;
+}
+
+.round {
+    position: relative;
+    position: absolute;
+    right: 4%;
+    top: 5%;
+}
+
+.round label {
+    background-color: #D9D9D9;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 26px;
+}
+
+.round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+    background-color: #FABA01;
+    ;
+    border-color: none;
+    color: #000;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+.customBg {
+    background: #FFE394;
+    border: 1px solid #FABA01;
+    border-radius: 10px;
+}
+
+.flexBoxOne {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.resetPageLoginButton {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #002D5D;
+    margin-left: 60px;
+}
+
+.resetArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.resetArea .noticeText {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A09E9E;
+}
+
+.resetArea .resetText {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-left: 15px;
+    color: #002D5D;
+}
+
+/*====================================End Main Body========================================*/
